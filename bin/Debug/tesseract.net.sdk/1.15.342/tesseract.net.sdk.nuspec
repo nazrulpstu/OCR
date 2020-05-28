@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Tesseract.Net.SDK</id>
+    <version>1.15.342</version>
+    <title>Tesseract.Net SDK</title>
+    <authors>patagames.com</authors>
+    <owners>patagames.com</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>http://tesseract.patagames.com/faq/eula/</licenseUrl>
+    <projectUrl>http://tesseract.patagames.com/</projectUrl>
+    <iconUrl>http://patagames.com/_images/box_tesseract_main.png</iconUrl>
+    <description>Tesseract.NET SDK it's a class library based on the tesseract-ocr project for embedding ocr capability in your .net project.</description>
+    <summary>Tesseract.NET SDK it's a class library based on the tesseract-ocr project for embedding ocr capability in your .net project.</summary>
+    <releaseNotes></releaseNotes>
+    <copyright>(C) 2010-2016 patagames.com</copyright>
+    <tags>Tesseract, Tesseract.Net, OCR, OCR .NET, c#, VB.NET, VB, tesseract-ocr</tags>
+  </metadata>
+</package>

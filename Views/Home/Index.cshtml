@@ -1,0 +1,65 @@
+﻿@model UploadModel;
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+
+
+
+
+
+
+<form asp-action="Index" id="tform" enctype="multipart/form-data">
+
+    <label>Image caption</label> <input asp-for="ImageCaption" />
+    <label>Image Description</label><input asp-for="ImageDescription" />
+    <input asp-for="FormFile" id="set_file" />
+
+    <input type="submit" value="Upload Data From Image" onclick="return uFile()" id="btnUploadFile" />
+
+    <div style="margin-top:15px">
+        <output name="result"></output>
+    </div>
+</form>
+
+<div class="container">
+    <div class="row">
+
+         <div class="col-sm-4">
+                <h3>Output Text</h3>
+                <p>@Html.Raw(ViewData["text_read"]) </p>
+                
+            </div>
+        
+
+
+        <div class="col-sm-4">
+            <h3>Pdf Link</h3>
+            <p><a href="home/DownloadDocument?file_name=@Html.Raw(ViewData["pdf_link"])" target="_blank">Pdf Link</a></p>
+            <p></p>
+        </div>
+        
+    </div>
+</div>
+<script type="text/javascript">
+
+    function uFile() {
+
+        var hasfile = document.getElementById('set_file').value;
+        
+
+        if (hasfile != null && hasfile !='') {
+
+            return true;
+        }
+       
+        return false;
+
+    }
+
+</script>
+
+
+

@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <NoWarn>$(NoWarn);NU1701</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\lib\blueimp\jquery.fileupload-audio.js" />
+    <None Include="wwwroot\lib\blueimp\jquery.fileupload-image.js" />
+    <None Include="wwwroot\lib\blueimp\jquery.fileupload-jquery-ui.js" />
+    <None Include="wwwroot\lib\blueimp\jquery.fileupload-process.js" />
+    <None Include="wwwroot\lib\blueimp\jquery.fileupload-ui.js" />
+    <None Include="wwwroot\lib\blueimp\jquery.fileupload-validate.js" />
+    <None Include="wwwroot\lib\blueimp\jquery.fileupload-video.js" />
+    <None Include="wwwroot\lib\blueimp\jquery.fileupload.js" />
+    <None Include="wwwroot\lib\blueimp\jquery.iframe-transport.js" />
+    <None Include="wwwroot\lib\blueimp\jquery.ui.widget.js" />
+    <None Include="wwwroot\lib\blueimp\vssver2.scc" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="jQuery" Version="3.5.1" />
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.3" NoWarn="NU1701" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.1.10" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="PdfSharp" Version="1.50.5147" />
+    <PackageReference Include="System.Drawing.Common" Version="5.0.0-preview.3.20214.6" />
+    <PackageReference Include="System.Text.Encoding.CodePages" Version="4.7.1" />
+    <PackageReference Include="Tesseract" Version="3.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Patagames.Ocr">
+      <HintPath>C:\Users\Nazrul\.nuget\packages\tesseract.net.sdk\1.15.342\lib\net462\Patagames.Ocr.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Tesseract-OCR</id>
+        <version>1.0.4</version>
+        <title>Tesseract-OCR</title>
+        <authors>Google</authors>
+        <owners>Google</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Tesseract-OCR</description>
+        <language>zh-CN</language>
+        <tags>OCR</tags>
+    </metadata>
+</package>
